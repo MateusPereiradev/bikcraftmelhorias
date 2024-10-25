@@ -1,3 +1,12 @@
 /* utilidades */
 @import url(./utilitario/tipografia.css);
 @import url(./utilitario/cores.css);
+
+/* container */
+@import url(./container/container.css);
+
+/* header */
+@import url(./header/header.css);
+
+/* global */
+@import url(./global/global.css);
