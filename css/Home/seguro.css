@@ -89,9 +89,11 @@
   }
   .seguro-conteudo .botao {
     padding: 12px 20px;
+    width: max-content;
   }
   .seguro-conteudo .botao-prata {
     padding: 12px 20px;
+    width: max-content;
   }
   .seguro h2 {
     font-size: 3.5rem;
