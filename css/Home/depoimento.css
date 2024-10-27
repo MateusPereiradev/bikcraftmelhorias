@@ -16,10 +16,34 @@ blockquote {
   align-content: end;
   padding-bottom: 140px;
   padding-left: 80px;
+  padding-top: 40px;
   background-color: var(--cor-p1);
 }
 
 .depoimento-conteudo p {
   display: block;
   margin-top: 32px;
+}
+
+.depoimento-imagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 800px) {
+  .depoimento {
+    grid-template-columns: 1fr;
+    margin-top: 60px;
+  }
+  .depoimento-conteudo {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+  }
+
+  .depoimento-imagem img {
+    height: 300px;
+  }
 }
