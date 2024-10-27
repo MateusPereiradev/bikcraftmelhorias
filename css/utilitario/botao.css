@@ -1,0 +1,13 @@
+.botao {
+  padding: 16px 32px;
+  text-transform: uppercase;
+  color: var(--cor-p5);
+  background-image: linear-gradient(to left, #ffbf00, #f2a50c);
+  font: 600 18px/24px "poppins", sans serif;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.botao:hover {
+  background-image: linear-gradient(to left, #dfaa0c, #eba519);
+}

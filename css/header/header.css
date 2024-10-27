@@ -18,6 +18,21 @@
 .header-menu a {
   padding: 16px 0px;
   color: var(--cor-0);
+  position: relative;
+}
+
+.header-menu a::after {
+  content: "";
+  width: 0px;
+  height: 2px;
+  display: block;
+  background-color: var(--cor-0);
+  position: absolute;
+  transition: 0.3s;
+}
+
+.header-menu a:hover::after {
+  width: 100%;
 }
 
 @media (max-width: 800px) {
@@ -30,5 +45,8 @@
     padding: 8px 16px;
     background-color: var(--cor-11);
     border-radius: 4px;
+  }
+  .header-menu a::after {
+    display: none;
   }
 }
