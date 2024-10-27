@@ -1,0 +1,25 @@
+.depoimento {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 120px;
+}
+
+blockquote {
+  font-family: "marriweather", serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 48px;
+  font-style: italic;
+}
+
+.depoimento-conteudo {
+  align-content: end;
+  padding-bottom: 140px;
+  padding-left: 80px;
+  background-color: var(--cor-p1);
+}
+
+.depoimento-conteudo p {
+  display: block;
+  margin-top: 32px;
+}
