@@ -42,6 +42,7 @@
 
   .intro-conteudo h1 {
     font-size: 3rem;
+    line-height: normal;
   }
 
   .intro-conteudo .botao {

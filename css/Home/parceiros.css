@@ -39,6 +39,7 @@
 @media (max-width: 800px) {
   .parceiros h2 {
     font-size: 3rem;
+    line-height: normal;
   }
 
   .parceiros {
