@@ -11,6 +11,9 @@
 @import url(./utilitario/cores.css);
 @import url(./utilitario/botao.css);
 
+/* bicicleta */
+@import url(./bicicleta/bicicleta.css);
+
 /* container */
 @import url(./container/container.css);
 
