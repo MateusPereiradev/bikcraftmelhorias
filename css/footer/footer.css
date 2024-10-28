@@ -36,6 +36,10 @@
   color: var(--cor-5);
 }
 
+.footer-info a:hover {
+  color: var(--cor-0);
+}
+
 .footer-contato a {
   font-size: 18px;
   color: var(--cor-5);

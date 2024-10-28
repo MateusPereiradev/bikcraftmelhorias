@@ -20,5 +20,11 @@
 /* footer */
 @import url(./footer/footer.css);
 
+/* termos */
+@import url(./termos/termos.css);
+
 /* global */
 @import url(./global/global.css);
+
+/* titulo */
+@import url(./titulo/titulo.css);
