@@ -12,3 +12,10 @@
 .termos p + p {
   margin-top: 16px;
 }
+
+@media (max-width: 800px) {
+  .termos {
+    padding-top: 32px;
+    padding-bottom: 80px;
+  }
+}
