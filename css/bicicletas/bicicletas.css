@@ -114,4 +114,7 @@
   .comprar p {
     margin-left: 0px;
   }
+  .info-lista {
+    grid-template-columns: 1fr;
+  }
 }
