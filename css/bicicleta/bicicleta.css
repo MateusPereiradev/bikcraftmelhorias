@@ -63,8 +63,7 @@
 }
 
 .bicicleta-lista li {
-  display: grid;
-  grid-template-columns: auto 1fr;
+  display: flex;
   gap: 8px;
   margin-bottom: 12px;
   align-items: center;

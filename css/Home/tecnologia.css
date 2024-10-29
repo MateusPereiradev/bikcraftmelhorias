@@ -30,8 +30,28 @@
   margin-top: 32px;
 }
 
-.tecnologia-conteudo .botao {
+.tecnologia-conteudo a {
+  display: block;
+  max-width: max-content;
   margin-top: 20px;
+  position: relative;
+}
+
+.tecnologia-conteudo a::after {
+  content: "";
+  height: 4px;
+  width: 100%;
+  display: block;
+  background-color: var(--cor-p1);
+  position: absolute;
+}
+
+.tecnologia-conteudo a:hover {
+  color: var(--cor-0);
+}
+
+.tecnologia-conteudo a:hover::after {
+  background-color: var(--cor-0);
 }
 
 .tecnologia-lista {
