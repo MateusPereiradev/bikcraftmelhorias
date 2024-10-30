@@ -10,12 +10,10 @@
   gap: 20px;
 }
 
-.bicicletas-imagem img:first-child {
-  min-width: 100%;
-}
 .bicicletas-conteudo {
   margin-bottom: 40px;
 }
+
 .bicicletas-conteudo > p {
   margin-bottom: 32px;
 }
@@ -102,7 +100,6 @@
   .comprar {
     grid-template-columns: 1fr;
   }
-
   .comprar .botao {
     max-width: max-content;
     margin-bottom: 20px;
@@ -112,5 +109,11 @@
   }
   .info-lista {
     grid-template-columns: 1fr;
+  }
+  .bicicletas {
+    gap: 0px;
+  }
+  .ficha-lista {
+    margin-bottom: 0px;
   }
 }
