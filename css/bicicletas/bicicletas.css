@@ -8,6 +8,16 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  align-content: start;
+}
+
+.bicicletas-imagem img:first-child {
+  min-width: 100%;
+}
+
+.bicicletas-imagem img {
+  min-width: 200px;
+  flex: 1;
 }
 
 .bicicletas-conteudo {
