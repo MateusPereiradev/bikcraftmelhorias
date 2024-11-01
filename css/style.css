@@ -14,6 +14,7 @@
 @import url(./utilitario/tipografia.css);
 @import url(./utilitario/cores.css);
 @import url(./utilitario/botao.css);
+@import url(./utilitario/formulario.css);
 
 /* bicicleta */
 @import url(./bicicleta/bicicleta.css);
@@ -39,3 +40,6 @@
 /* seguro */
 @import url(./seguro/vantagens.css);
 @import url(./seguro/perguntas.css);
+
+/* contato */
+@import url(./contato/contato.css);

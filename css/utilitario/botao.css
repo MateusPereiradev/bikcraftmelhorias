@@ -6,6 +6,8 @@
   font: 600 18px/24px "poppins", sans serif;
   border-radius: 4px;
   display: inline-block;
+  border: none;
+  cursor: pointer;
 }
 
 .botao:hover {

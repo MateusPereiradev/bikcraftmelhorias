@@ -1,0 +1,47 @@
+#contato {
+  background-color: var(--cor-1);
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 20px;
+  background-color: var(--cor-0);
+  border-radius: 0px 4px 4px 0px;
+}
+
+.col-2 {
+  grid-column: span 2;
+}
+
+.form label {
+  display: block;
+  font: 600 16px/24px "poppins", sans serif;
+  margin-bottom: 4px;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+  padding: 12px;
+  font: 400 16px/25px "roboto", sans serif;
+  width: 100%;
+  background-color: var(--cor-1);
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid var(--cor-2);
+  margin-bottom: 20px;
+}
+
+.form input[type="text"]:focus,
+.form input[type="email"]:focus,
+.form textarea:focus {
+  outline: none;
+  outline: 2px solid var(--cor-p1);
+  box-shadow: 0 0 0 2px #fea;
+  background-color: var(--cor-0);
+}
+
+.form button {
+  width: max-content;
+}
