@@ -49,6 +49,7 @@
 @media (max-width: 600px) {
   .form {
     grid-template-columns: 1fr;
+    border-radius: 0px 0px 4px 4px;
   }
   .col-2 {
     grid-column: 1;
