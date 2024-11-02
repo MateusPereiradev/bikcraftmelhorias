@@ -5,7 +5,7 @@
 .contato {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-bottom: 200px;
+  padding-bottom: 200px;
 }
 
 .contato-conteudo,
@@ -72,6 +72,7 @@
 @media (max-width: 800px) {
   .contato {
     grid-template-columns: 1fr;
+    padding-bottom: 60px;
   }
   .contato-conteudo {
     border-radius: 4px 4px 0px 0px;

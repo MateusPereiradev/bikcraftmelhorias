@@ -50,3 +50,12 @@
 .perguntas-lista .bg:nth-child(odd) {
   background-color: var(--cor-1);
 }
+
+@media (max-width: 800px) {
+  .perguntas h2 {
+    font-size: 3rem;
+  }
+  .perguntas {
+    padding-top: 60px;
+  }
+}
