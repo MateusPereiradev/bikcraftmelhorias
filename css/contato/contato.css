@@ -1,3 +1,7 @@
+#contato {
+  background-image: linear-gradient(var(--cor-11) 700px, var(--cor-1) 0%);
+}
+
 .contato {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -63,4 +67,10 @@
   gap: 32px;
   margin-bottom: 60px;
   padding-left: 28px;
+}
+
+@media (max-width: 800px) {
+  .contato {
+    grid-template-columns: 1fr;
+  }
 }

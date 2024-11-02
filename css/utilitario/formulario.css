@@ -45,3 +45,12 @@
 .form button {
   width: max-content;
 }
+
+@media (max-width: 600px) {
+  .form {
+    grid-template-columns: 1fr;
+  }
+  .col-2 {
+    grid-column: 1;
+  }
+}
