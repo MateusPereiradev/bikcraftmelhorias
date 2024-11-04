@@ -1,0 +1,54 @@
+#orcamento {
+  background-color: var(--cor-1);
+}
+
+.orcamento {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+}
+
+.orcamento-dados h2 {
+  grid-column: 1/-1;
+}
+
+#orcamento h2 {
+  display: flex;
+  align-items: center;
+  position: relative;
+  text-transform: uppercase;
+}
+
+#orcamento h2::before {
+  content: "";
+  height: 8px;
+  width: 4px;
+  background-color: var(--cor-p1);
+  position: absolute;
+  left: -8px;
+}
+
+.orcamento-produtos,
+.orcamento-dados {
+  padding: 60px;
+}
+
+.orcamento-produtos {
+  background-color: var(--cor-11);
+}
+
+.orcamento-produtos label {
+  color: var(--cor-4);
+}
+
+.orcamento-dados {
+  background-color: var(--cor-0);
+}
+
+#bikcraft:checked ~ #orcamento-bikcraft,
+#seguro:checked ~ #orcamento-seguro {
+  display: block;
+}
+
+.orcamento-conteudo {
+  display: none;
+}

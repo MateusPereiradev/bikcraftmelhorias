@@ -13,7 +13,8 @@ h2,
 h3,
 p,
 blockquote,
-dd {
+dd,
+input {
   margin: 0px;
 }
 
