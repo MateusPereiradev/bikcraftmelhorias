@@ -2,6 +2,10 @@
   background-image: linear-gradient(var(--cor-11) 700px, var(--cor-1) 0%);
 }
 
+#orcamento .titulo h1 {
+  line-height: 1.2;
+}
+
 .orcamento {
   display: grid;
   grid-template-columns: 5fr 7fr;
@@ -83,6 +87,10 @@
     inset 0px 0px 0px 5px var(--cor-10);
 }
 
+.orcamento-produtos label:hover {
+  background-color: var(--cor-9);
+}
+
 .orcamento-produtos input {
   opacity: 0;
   pointer-events: none;
@@ -124,4 +132,49 @@
 
 .orcamento-conteudo input:checked + label span {
   display: initial;
+}
+
+.orcamento-detalhes {
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-bottom: 24px;
+  background-color: var(--cor-0);
+  padding: 20px;
+  border-radius: 4px;
+  display: none;
+}
+
+.orcamento-conteudo input:checked + label + .orcamento-detalhes {
+  display: grid;
+}
+
+.orcamento-detalhes ul li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.orcamento-detalhes li img {
+  width: 24px;
+}
+
+@media (max-width: 1200px) {
+  .orcamento-produtos,
+  .orcamento-dados {
+    padding: 32px;
+  }
+}
+
+@media (max-width: 800px) {
+  .orcamento {
+    grid-template-columns: 1fr;
+  }
+
+  .orcamento-produtos {
+    border-radius: 4px 4px 0 0;
+  }
+
+  .orcamento-dados {
+    border-radius: 0 0 4px 4px;
+  }
 }
